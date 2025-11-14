@@ -1,3 +1,7 @@
+/*
+если написать огромную цену то будет большой большой трындец 
+который можно прервать нажав ctrl + C или выйти из терминала с помощью ctrl + D
+*/
 #include <iostream>
 #include <string>
 
@@ -25,10 +29,6 @@ void commands()
     string com;
     while (true)
     {
-        for (int i = 0; i <= 999999; i++) {
-            cout << T_GREEN << "[ OK ] ehjrwrhjkhjhtyrtjykyjreyretujykyjrteyrutjk" << T_RESET << i << endl;
-        }
-
 	    cout << "saller~$: ";
         cin >> com;
         if (com == "sum") {
